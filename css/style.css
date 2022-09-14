@@ -1,0 +1,164 @@
+
+/* підключення шрифтів Google Fonts з сімейства Roboto */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+/* підключення шрифтів з макету  OnlineCourse сімейства Lato*/
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/lato/Lato-Regular.woff2") format("woff2"),
+	url("../fonts/lato/Lato-Regular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/lato/Lato-Bold.woff2") format("woff2"),
+	url("../fonts/lato/Lato-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/lato/Lato-Black.woff2") format("woff2"),
+	url("../fonts/lato/Lato-Black.woff") format("woff");
+	font-display: swap;
+	font-weight: 900;
+	font-style: normal;
+}
+
+/* підключення шрифтів з макету ThriveTalk сімейства Larsseit*/
+
+
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/larsseit/Larsseit-Regular.woff2") format("woff2"),
+	url("../fonts/larsseit/Larsseit-Regular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/larsseit/Larsseit-Medium.woff2") format("woff2"),
+	url("../fonts/larsseit/Larsseit-Medium.woff") format("woff");
+	font-display: swap;
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/larsseit/Larsseit-Bold.woff2") format("woff2"),
+	url("../fonts/larsseit/Larsseit-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+
+* {
+	font-family: "Larsseit";
+	font-weight: 400;
+	
+}
+
+body{
+	font-family: "Lato";
+	font-weight: 700;
+	font-size: 20px;
+	
+}
+
+a{
+	color: blue;
+}
+
+#first{
+	font-family: "Roboto";
+	font-weight: 900;
+	color: blueviolet;
+}
+
+#second{
+	font-family: "Roboto";
+	font-weight: 900;
+	color: rgb(5, 245, 189);
+}
+
+#third{
+	font-family: "Lato";
+	font-weight: 900;
+	color: rgb(5, 245, 189);
+}
+
+#forth{
+	font-family: "Lato";
+	font-weight: 700;
+	color: rgb(5, 245, 189);
+}
+
+
+.first-part{
+	font-family: "Lato";
+	font-weight: 900;
+	color: rgb(12, 110, 110);
+}
+
+.second-part{
+	font-family: "Lato";
+	font-weight: 900;
+	color: brown;
+}
+
+span{
+	color: coral;
+}
+
+.seventh-part span{
+	color: rgb(0, 255, 136);
+}
+
+.market p{
+	color: red;
+}
+.market.ubs {
+	color: aqua;
+}
+.market{
+	color: blue;
+}
+
+
+.advert a{
+	color: yellowgreen;
+}
+
+.vysnovok,
+.six-part{
+	color: cyan;
+}
+
+.experement > p{
+	color: red;
+}
+
+.third-part >p {
+	color: green;
+}
+
+.experement ~ p{
+	color: blue;
+}
+
+.experement + p {
+	color: aqua;
+}
+
+
